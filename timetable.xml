@@ -1,0 +1,8 @@
+<timetable>
+  <train id="1">
+    <path>
+      <station name="Station A" arrival="09:00" departure="09:05" lat="45.42" lon="11.88"/>
+      <station name="Station B" arrival="09:30" departure="09:32" lat="45.40" lon="11.90"/>
+    </path>
+  </train>
+</timetable>
