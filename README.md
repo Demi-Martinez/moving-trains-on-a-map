@@ -7,7 +7,7 @@ This is a simple desktop application in Python that move some moving thick lines
 The architecture of this app is:
 - A a file with all time tables and paths in some format that it's easy to produce or and export from another source, like XML.
 - B a python process that gets the time and paths and produces some coordinates that go on a map.
-- C some visualization process, in python as well, that support showing a group of dots on a map.
+- C some visualization process, in python as well, that support showing thick lines on a map.
 
 The second B part was of course that most interesting, I tried two approaches multithreading and a single process that once updating all trains at regular intervals.
 
